@@ -1,20 +1,20 @@
 @font-face {
 	font-family: 'Apercu';
-	src: url('/assets/fonts/Apercu-Light.otf') format('opentype');
+	src: url('assets/fonts/Apercu-Light.otf') format('opentype');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Apercu';
-	src: url('/assets/fonts/Apercu-Medium.otf') format('opentype');
+	src: url('assets/fonts/Apercu-Medium.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Apercu';
-	src: url('/assets/fonts/Apercu-Bold.otf') format('opentype');
+	src: url('assets/fonts/Apercu-Bold.otf') format('opentype');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -52,35 +52,35 @@ html, body {
     position: relative;
 }
 .nora-panel.book {
-    background-image: url('/assets/img/7.jpg');
+    background-image: url('assets/img/7.jpg');
     background-position: 0% 60%;
 }
 
 .nora-panel.first {
-    background-image: url('/assets/img/1.jpg');
+    background-image: url('assets/img/1.jpg');
     background-position: 0% 60%;
 }
 
 .nora-panel.second {
-    background-image: url('/assets/img/2.jpg');
+    background-image: url('assets/img/2.jpg');
 }
 
 .nora-panel.third {
-    background-image: url('/assets/img/3.jpg');
+    background-image: url('assets/img/3.jpg');
 }
 
 .nora-panel.fourth {
-    background-image: url('/assets/img/4.jpg');
+    background-image: url('assets/img/4.jpg');
     background-position: 50% 100%;
 }
 
 .nora-panel.fifth {
-    background-image: url('/assets/img/5.jpg');
+    background-image: url('assets/img/5.jpg');
     background-position: 50% 10%;
 }
 
 .nora-panel.sixth {
-    background-image: url('/assets/img/6.jpg');
+    background-image: url('assets/img/6.jpg');
 }
 
 @media only screen and (max-width: 568px) {
