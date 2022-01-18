@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     var toggleBooking = function (isVoucher) {
         //$('.main-content').toggleClass('toggled');
-        var height = $(window).innerHeight();
+        var height = window.innerHeight;
         var toggleOffset = $('.main-content').scrollTop() > 300 ? (height - menuHeight) : height;
         if (window.innerWidth < 568) toggleOffset += 60;
 
