@@ -197,7 +197,10 @@ html, body {
 }
 
 .bar-left.fl-left {
-    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 @media only screen and (max-width: 568px) {

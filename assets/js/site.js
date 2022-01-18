@@ -4,7 +4,6 @@ $(document).ready(function () {
         return /iP(ad|hone|od).+Version\/[\d\.]+.*Safari/i.test(navigator.userAgent);
     }
 
-    console.log("Test");
     var isMenuShowing = false;
     var isToggled = false;
     var isToggleFinished = false;
