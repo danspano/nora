@@ -57,8 +57,19 @@ html, body {
 }
 
 .nora-panel.first {
-    background-image: url('../img/1.jpg');
-    background-position: 0% 60%;
+    background: black;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.nora-panel.first .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.nora-panel.first video {
+    max-width: 800px;
 }
 
 .nora-panel.second {
