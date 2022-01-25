@@ -119,13 +119,13 @@ html, body {
 
 .hero-book {
     margin-bottom: 6vh;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 300;
 }
 
 @media only screen and (max-width: 768px) {
     .hero-book {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -183,7 +183,7 @@ html, body {
 
 .hero-book.book-button, .hero-book.voucher-button {
     border: 1px solid rgba(255, 255, 255, 0.25);
-    line-height: 52px;
+    line-height: 46px;
     display: inline-block;
 }
 

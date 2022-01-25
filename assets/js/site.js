@@ -61,9 +61,10 @@ $(document).ready(function () {
 
     // }
 
-    // $('.book-button').click(function () {
-    //     //toggleBooking(false);
-    // });
+    $('.book-button').click(function () {
+        //toggleBooking(false);
+        window.location.href = 'https://www.tablecheck.com/shops/small-dinner-club/reserve';
+    });
 
     // $('.voucher-button').click(function () {
     //     toggleBooking(true);
